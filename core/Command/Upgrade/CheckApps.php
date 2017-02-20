@@ -71,8 +71,6 @@ class CheckApps extends Base {
 			} else {
 				$this->writeArrayInOutputFormat($input, $output, [ 'missing' => $missingApps ]);
 			}
-
-
 			return 1;
 		}
 		return 0;
